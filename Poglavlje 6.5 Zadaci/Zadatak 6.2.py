@@ -10,4 +10,4 @@ def provjeraPonavljanja(n,m):
 n = int(input())
 m = int(input())
 
-print(provjeraPonavljanja(n,m))
+print(provjeraPonavljanja(n, m))
