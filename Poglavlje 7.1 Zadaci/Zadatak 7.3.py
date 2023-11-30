@@ -16,4 +16,6 @@ for i in range(len(brojevi)):
     else:
         najveci += brojevi[i]
 
+print()
+
 print(f"Vas rezultat je: {najveci-najmanji}")
