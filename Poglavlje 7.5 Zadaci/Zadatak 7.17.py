@@ -10,10 +10,12 @@ while True:
     for i in range(len(novi)):
         zbir += int(novi[i])
     novi += str(zbir)
+
     for i in range(len(novi)):
         if int(novi[i]) not in pojavljivanja:
             pojavljivanja.append(int(novi[i]))
     pojavljivanja = sorted(pojavljivanja)
+
     if brojevi == pojavljivanja:
         break
 
