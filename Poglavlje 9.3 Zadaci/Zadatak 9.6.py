@@ -53,5 +53,3 @@ for i in range(len(matrica)):
 #     polja = drugi_indeks - prvi_indeks + 1
 #     print(polja)
 #     povrsina += polja
-
-print(povrsina)
