@@ -17,7 +17,7 @@ while True:
     if len(ostatak) > najveci_ostatak:
         pamti = ostatak
         najveci_ostatak = len(pamti)
-        podsekvenca = podsekvenca[indeks1+4:]
+        podsekvenca = podsekvenca[indeks1 + 4:]
     else:
         podsekvenca = podsekvenca[indeks1 + 4:]
     if len(podsekvenca) < len(ostatak):
