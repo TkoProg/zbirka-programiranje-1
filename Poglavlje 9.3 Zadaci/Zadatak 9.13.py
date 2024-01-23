@@ -1,7 +1,7 @@
 file = open("Zadatak 9.13.in", "r")
 
 matrica = []
-brojac  = 0
+brojac = 0
 
 while True:
     red = file.readline()
