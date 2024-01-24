@@ -12,8 +12,6 @@ while True:
 
 file.close()
 
-print(matrica)
-
 for i in range(len(matrica)):
     matrica[i][2] = int(matrica[i][2])
 
@@ -21,8 +19,6 @@ nova = sorted(matrica, key=lambda x: x[2])
 
 
 nova.sort(reverse=True)
-
-print(nova)
 
 prodavaci = []
 zarada = []
@@ -37,9 +33,6 @@ for i in range(len(nova)):
         mjesto = pojavljeni_prodavaci.index(nova[i][0])
         zarada[mjesto] += nova[i][2]
 
-print(pojavljeni_prodavaci)
-print(zarada)
-
 zadnja = []
 
 for i in range(len(pojavljeni_prodavaci)):
@@ -47,8 +40,6 @@ for i in range(len(pojavljeni_prodavaci)):
     place_holder.append(pojavljeni_prodavaci[i])
     place_holder.append(zarada[i])
     zadnja.append(place_holder)
-
-print(zadnja)
 
 bas_zadnja = sorted(zadnja, key=lambda x: x[1], reverse=True)
 
